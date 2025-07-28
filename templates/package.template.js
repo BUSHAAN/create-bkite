@@ -15,6 +15,7 @@ export const packageTemplate = (projectName) =>
         dotenv: "^16.0.3",
         express: "^4.18.2",
         mongoose: "^8.9.5",
+        "detect-port": "^2.1.0"
       },
       devDependencies: {
         nodemon: "^3.1.7",
