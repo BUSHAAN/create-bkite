@@ -100,6 +100,11 @@ const startProject = async (projectName, packageName, projectDir) => {
       path: "src/utils/asyncHandler.js",
       content: templates.asyncHandlerTemplate(),
     },
+    {
+      type: "file",
+      path: "src/utils/getPort.js",
+      content: templates.getPortTemplate(),
+    }
   ];
 
   structure.forEach((item) => {

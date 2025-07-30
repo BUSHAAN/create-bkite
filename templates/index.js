@@ -11,3 +11,4 @@ export { ApiResponseTemplate } from "./ApiResponse.template.js";
 export { ApiErrorTemplate } from "./ApiError.template.js";
 export { globalErrorHandlerTemplate } from "./globalErrorHandler.middleware.template.js";
 export { asyncHandlerTemplate } from "./asyncHandler.template.js";
+export { getPortTemplate } from "./getPort.template.js";
